@@ -14,7 +14,7 @@
 		<nav>
 			<ul>
 				
-				<li><a href="#tutorial" title="Home" alt="Página Inicial">Home</a></li>
+				<li><a href="index.php" title="Home" alt="Página Inicial">Home</a></li>
 				<li><a href="#" title="Blog" alt="Artigos">Blog</a></li>
 				<li><a href="#" title="Quem Somos" alt="Suporte">Conheça a Dona Olivia</a></li>
 				<li><a href="#" title="Contato" alt="Contato">Contato</a></li>
@@ -85,7 +85,7 @@
 
 		<div class="flex-item rodape coluna1">
 				<h2>Nossas Páginas</h2>
-				<p><a href="#tutorial" >Home</a></p>
+				<p><a href="index.php">Home</a></p>
 				<p><a href="#">Blog</a></p>
 				<p><a href="#">Conheça a Dona Olivia</a></p>
 				<p><a href="#">Contato</a></p>
