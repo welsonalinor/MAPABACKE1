@@ -35,7 +35,7 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="index.php" title="Home" alt="Página Inicial">Home</a></li>
+				<li><a href="#tutorial" title="Home" alt="Página Inicial">Home</a></li>
 				<li><a href="#" title="Blog" alt="Artigos">Blog</a></li>
 				<li><a href="#" title="Quem Somos" alt="Suporte">Conheça a dona Olivia</a></li>
 				<li><a href="#" title="Contato" alt="Contato">Contato</a></li>
@@ -66,13 +66,13 @@
 						}
 					}
 				}else{
-					echo "Não existe";
+					echo "Esta Página Não existe, Tente um dos nossos tutoriais logo abaixo.........";
 				}
 			?>
 		</section>
         <section class="main_tutorial">
 			<header class="main_tutorial_header">
-				<h1>Ver mais Tutoriais</h1>
+				<h1>Ver Mais Tutoriais</h1>
 			</header>
 			<?php
 			$id = 0;
@@ -107,41 +107,38 @@
         <!--3ª dobra-->
 	</main>
 
-	<section class="table">
-		<table border="0" width="100%"
-		cellpadding="10">
-		<tr>
-			
-			<td width="20%" valign="top">
-			    <h3>Nossas Páginas</h3></br>
-				<p><a href="index.php">Home</a></br>
-				<a href="#">Blog</a><br>
-				<a href="#">Conheça a Dona Olivia</a></br>
-				<a href="#">Contato</a></br>		
-				</p>        
-			
-			</td>
 
-			<td width="20%" valign="top">
-				<h3>Links Úteis</h3><br>
-				<p><a href="#">Politica de Privacidade</a></br>
-				<a href="#">Aviso Legal</a></br>
-				<a href="#">Termo de Uso</a></br>
-				</p>        
-			</td>
+	<!-------------------------------------Rodape------------------------------------------------------>
 
-			<td width="40%" valign="top">
-				<h3>Sobre o Projeto</h3></br>
-				<p><a href="#">Projeto de Divulgaçao das Marmitas da Dona Olivia</a></br>
-				</p> 
-			</td>
 
-		</tr>
-		</table>
+	<section Class="flex-container">
+
+		<div class="flex-item rodape rodape1">
+						<h2>Nossas Páginas</h2>
+						<p><a href="#tutorial">Home</a></p>
+						<p><a href="#">Blog</a></p>
+						<p><a href="#">Conheça a Dona Olivia</a></p>
+						<p><a href="#">Contato</a></p>
+				</div>
+
+		<div class="flex-item rodape rodape2">
+						<h2>Links Úteis</h2>
+						<p><a href="#">Política de Privacidade</a></p>
+						<p><a href="#">Aviso Legal</a></p>
+						<p><a href="#">Termo de Uso</a></p>		
+				</div>
+				
+		<div class="flex-item rodape rodape3">
+						<h2>Sobre o Projeto</h2>
+						<p><a href="#">Projeto de Divulgação das marmitas da Dona Olivia</a></p>
+				
+				</div>
+		
 	</section>
 
-	<footer>
-	<br>&copy Desenvolvido por Welson Alinor de Barros
+
+	<footer>	
+		<br>&copy Desenvolvido por Welson Alinor de Barros
 	</footer>
 </body>
 </html>

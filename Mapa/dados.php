@@ -59,4 +59,7 @@
             'descricao'=>'Marmitex de Picanha Com Legumes (Arroz, Feijão, Picanha, Batata Frita, Legumes e Salada) Pequena R$ 22,00. Media R$ 26,00. Grande R$ 30,00.',
             'imagem'=>'img/ma8.jpg', 
             'title_img'=>'Marmitex de Picanha Com Legumes'),
+             
     );
+    
+    

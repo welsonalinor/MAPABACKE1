@@ -194,7 +194,7 @@ li a:hover{
     font-size: 0.875em;
 }
 
-/*--------------------------------*/
+/*----------------------------------------------------------*/
 
 footer {
             
@@ -206,34 +206,45 @@ footer {
     text-align: center;
 }
 
-.table{
-            
-    width: 100%;
-    margin: auto;
-    padding: 20px;
-    color: white;            
+
+/*----------------------------------------------------------*/
+
+ .flex-container{
+
+    
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px;    
+    justify-content: space-evenly;/*coloca no centro*/
+    /*align-content: center;*/
     background-color: #923838;
-    line-height:30px;
+    line-height:50px;
     
-}
+ } 
 
-.table a{
-    color: #fff;
-    padding: 10px;
-
-
-}
-
-.table a:hover{
-
+ .flex-container a{
     
-    padding: 10px;
-    background-color: #d36833;
-    color: #fff;
-
+    color:#fff;    
+       
  }
 
-  
+  .flex-container a:hover{
+
+    padding: auto;
+    background-color: #d36833;
+    color:#ffffff
+    
+    
+ }
+
+ .rodape{
+
+    color:#fff;
+
+
+  }
+
+ 
 
   
 
