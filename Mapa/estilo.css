@@ -82,6 +82,7 @@ li a:hover{
     margin: 0 auto;
     max-width: 1300px;
     padding: 160px 40px;
+    
 }
 
 
@@ -93,22 +94,32 @@ li a:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .main_tutorial .main_tutorial_header{
     flex-basis: 100%;
     margin: 30px 0;
+
+    
 }
 
 .main_tutorial .main_tutorial_header h1{
     color: #333;
     margin-bottom: 5px;
     font-size: 1.8em;
+
+
+  
 }
 .main_tutorial article{
     opacity: 0.85;
     flex-basis: calc(25% - 20px);
     margin-bottom: 30px;
+    
+    
+      
+    
 }
 .main_tutorial article:hover{
     opacity: 1;
@@ -120,6 +131,8 @@ li a:hover{
 
 .main_tutorial article p{
     margin: 10px 0;
+
+  
 }
 
 .main_tutorial article .category{
@@ -194,10 +207,59 @@ li a:hover{
     font-size: 0.875em;
 }
 
+
+
+
+/*----------------------------------------------------------*/
+
+.flex-container{
+
+    
+    /*display: flex;*/
+    flex-wrap: nowrap;
+    padding: 60px;    
+    justify-content: space-evenly;/*coloca no centro*/
+    /*align-content: center;*/
+    background-color: #923838;
+    line-height:50px;
+    
+} 
+
+.flex-container a{
+    
+    color:rgb(207, 207, 207);    
+    
+}
+
+.flex-container a:hover{
+
+    padding: auto;
+    background-color: #d36833;
+    color:#ffffff;
+    
+    
+}
+
+.rodape{
+
+    color:#ffffff;
+    
+
+
+}
+
+.group{
+    display: Flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+
+}
+
 /*----------------------------------------------------------*/
 
 footer {
-            
+                
     width: 100%;
     margin: auto;
     padding: 20px;            
@@ -205,44 +267,7 @@ footer {
     color: white;
     text-align: center;
 }
-
-
-/*----------------------------------------------------------*/
-
- .flex-container{
-
     
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 30px;    
-    justify-content: space-evenly;/*coloca no centro*/
-    /*align-content: center;*/
-    background-color: #923838;
-    line-height:50px;
-    
- } 
-
- .flex-container a{
-    
-    color:#fff;    
-       
- }
-
-  .flex-container a:hover{
-
-    padding: auto;
-    background-color: #d36833;
-    color:#ffffff
-    
-    
- }
-
- .rodape{
-
-    color:#fff;
-
-
-  }
 
  
 

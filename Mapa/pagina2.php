@@ -37,7 +37,7 @@
 			<ul>
 				<li><a href="index.php" title="Home" alt="Página Inicial">Home</a></li>
 				<li><a href="#" title="Blog" alt="Artigos">Blog</a></li>
-				<li><a href="#" title="Quem Somos" alt="Suporte">Conheça a dona Olivia</a></li>
+				<li><a href="#" title="Quem Somos" alt="Suporte">Conheça a Dona Rita</a></li>
 				<li><a href="#" title="Contato" alt="Contato">Contato</a></li>
 			</ul>
 		</nav>
@@ -61,7 +61,9 @@
 							<h3>Publicado em: <?=$data->format('d/m/Y');?></h3>
 						</header>
 						<img src=<?=$value['imagem'];?> title="<?=$value['title_img'];?>" alt="<?=$value['title_img'];?>">
-						<p><?=$value['descricao'];?></p>			
+						<p><?=$value['preco'];?></p>
+						<p><?=$value['descricao'];?></p>
+									
 						<?php
 						}
 					}
@@ -111,28 +113,32 @@
 	<!-------------------------------------Rodape------------------------------------------------------>
 
 
-	<section Class="flex-container">
+	<section class="flex-container">
 
-		<div class="flex-item rodape rodape1">
-						<h2>Nossas Páginas</h2>
-						<p><a href="index.php">Home</a></p>
-						<p><a href="#">Blog</a></p>
-						<p><a href="#">Conheça a Dona Olivia</a></p>
-						<p><a href="#">Contato</a></p>
-				</div>
+		<div class="flex-item rodape coluna0">
+			<h2>Quer Saber Mais?</h2>
+		</div>
 
-		<div class="flex-item rodape rodape2">
-						<h2>Links Úteis</h2>
-						<p><a href="#">Política de Privacidade</a></p>
-						<p><a href="#">Aviso Legal</a></p>
-						<p><a href="#">Termo de Uso</a></p>		
-				</div>
-				
-		<div class="flex-item rodape rodape3">
-						<h2>Sobre o Projeto</h2>
-						<p><a href="#">Projeto de Divulgação das marmitas da Dona Olivia</a></p>
-				
-				</div>
+		<div class="group">
+			<div class="flex-item rodape coluna1">
+				<h2>Nossas Páginas</h2>
+				<p><a href="index.php">Home</a></p>
+				<p><a href="#">Blog</a></p>
+				<p><a href="#">Conheça a Dona Rita</a></p>
+				<p><a href="#">Contato</a></p>
+			</div>
+			<div class="flex-item rodape coluna2">
+				<h2>Links Úteis</h2>
+				<p><a href="#">Política de Privacidade</a></p>
+				<p><a href="#">Aviso Legal</a></p>
+				<p><a href="#">Termo de Uso</a></p>		
+			</div>
+
+			<div class="flex-item rodape coluna3">
+				<h2>Sobre o Projeto</h2>
+				<p><a href="#">Projeto de Divulgação das marmitas da Dona Rita</a></p>
+			</div>
+	</div>
 		
 	</section>
 
